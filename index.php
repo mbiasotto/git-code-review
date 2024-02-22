@@ -1,5 +1,6 @@
 <?php
 
+//Comentário teste
 interface PaymentInterface
 {
     public function pay();
