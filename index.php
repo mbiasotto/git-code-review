@@ -30,6 +30,7 @@ class MercadoLivre implements PaymentInterface{
     }
 }
 
+//Comentário teste
 class PicPay implements PaymentInterface{
 
     public function pay()
