@@ -30,6 +30,14 @@ class MercadoLivre implements PaymentInterface{
     }
 }
 
+class PicPay implements PaymentInterface{
+
+    public function pay()
+    {
+        return 'Pay with Mercado Livre';
+    }
+}
+
 class Payment
 {
     public function Pay(PaymentInterface $payment)
